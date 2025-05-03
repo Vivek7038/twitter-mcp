@@ -37,10 +37,10 @@ https://medium.com/@nathaly12toledo/steps-to-create-a-single-tweet-with-a-free-a
    ```
 2. Open the `.env` file and add your Twitter API credentials:
    ```
-   TWITTER_API_KEY=your_api_key
-   TWITTER_API_SECRET=your_api_secret
-   TWITTER_ACCESS_TOKEN=your_access_token
-   TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
+   API_KEY=your_api_key
+   API_SECRET_KEY=your_api_secret
+   ACCESS_TOKEN=your_access_token
+   ACCESS_TOKEN_SECRET=your_access_token_secret
    ```
 
 ### 3. Install Dependencies
