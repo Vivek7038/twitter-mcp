@@ -1,0 +1,25 @@
+{
+  "name": "twitter-mcp",
+  "version": "1.0.0",
+  "description": "A simple MCP server for posting tweets.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "dotenv": "^16.4.7",
+    "twitter-api-v2": "^1.18.2",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.8.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
