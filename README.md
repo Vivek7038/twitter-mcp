@@ -1,6 +1,7 @@
 # Twitter MCP Server
 
 A simple Model Context Protocol (MCP) server for posting tweets via the Twitter/X API.
+![image](https://github.com/user-attachments/assets/ffd7cac6-8c96-4c78-9e6d-862999671959)
 
 ## Features
 
