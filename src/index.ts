@@ -24,7 +24,7 @@ const config: TwitterConfig = {
 
 const server = new Server({
   name: 'twitter-mcp',
-  version: '1.0.0'
+  version:"0.1.0"
 }, {
   capabilities: { tools: {} }
 });
