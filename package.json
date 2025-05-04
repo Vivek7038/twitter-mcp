@@ -1,6 +1,6 @@
 {
   "name": "twitter-mcp",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A simple MCP server for posting tweets.",
   "main": "src/index.js",
   "type": "module",
