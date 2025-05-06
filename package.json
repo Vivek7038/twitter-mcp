@@ -1,6 +1,6 @@
 {
   "name": "twitter-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple MCP server for posting tweets.",
   "type": "module",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
     "start": "node dist/index.js",
     "prepublishOnly": "npm run build",
     "inspect": "npx @modelcontextprotocol/inspector node dist/index.js"
-    
+
   },
   "keywords": [
     "mcp",
